@@ -1,0 +1,1 @@
+let btn_somarjs = document.getElementById("btn_somarjs").addEventListener("click",)
