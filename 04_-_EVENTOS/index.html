@@ -16,6 +16,20 @@
     <div id="bloco"></div>
 
     <p id="texto"></p>
+
+    <script>
+
+        $("#bloco").click(()=>{
+            $("#texto").text("CLICADO NO QUADRADO")})
+        $("#bloco").mouseenter(()=>{
+            $("#texto").text("MOUSE ENTROU NO QUADRADO")})
+        $("#bloco").mouseleave(()=>{
+            $("#texto").text("MOUSE SAIU DO QUADRADO")})
+        $("#bloco").mousemove(()=>{
+            $("#texto").text("MOUSE SE MOVENDO SOBRE O QUADRADO")})
+        $("#texto").text("Teste")
+
+    </script>
     
 </body>
 </html>
